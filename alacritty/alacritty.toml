@@ -1,0 +1,14 @@
+#themes from https://github.com/alacritty/alacritty-theme
+
+import = ["/Users/adi/.config/alacritty/themes/themes/gruvbox_dark.toml"]
+
+[font]
+size = 17 
+normal = { family = "JetBrainsMono Nerd Font", style = "Regular"}
+# uncomment when tmux is configed
+#[window]
+#decorations = "none"
+
+[window.padding]
+x = 7
+y = 0
