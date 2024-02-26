@@ -12,3 +12,6 @@ normal = { family = "JetBrainsMono Nerd Font", style = "Regular"}
 [window.padding]
 x = 7
 y = 0
+
+[scrolling]
+history = 500
