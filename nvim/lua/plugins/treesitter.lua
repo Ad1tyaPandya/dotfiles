@@ -22,11 +22,10 @@ return {
         "JavaScript",
         "TypeScript",
       },
-      -- Disable terraform treesitter on fixture files
+      -- Disable markdown treesitter on fixture files
       highlight = {
         disable = function(lang)
-          local buf_name = vim.fn.expand("%")
-          if lang == "terraform" and string.find(buf_name, "fixture") then
+          if lang == "markdown" then
             return true
           end
         end,
