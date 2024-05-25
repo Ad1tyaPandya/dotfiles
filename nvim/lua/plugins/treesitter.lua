@@ -22,7 +22,7 @@ return {
         "JavaScript",
         "TypeScript",
       },
-      -- Disable markdown treesitter on fixture files
+      -- Disable markdown on fixture files
       highlight = {
         disable = function(lang)
           if lang == "markdown" then
